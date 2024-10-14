@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# Application React Native Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Il s'agit d'une description de l'installation de la structure du project Waza test avec React Native.
 
-## Get started
+## Démarrage
 
-1. Install dependencies
+### Prérequis
 
-   ```bash
+- Node.js
+- Expo CLI
+- Yarn
+
+### Installation
+
+1. Cloner le dépôt :
+   ```sh
+   git clone https://github.com/votre-nom-dutilisateur/votre-nom-de-repo.git
+   ```
+2. Accéder au répertoire du projet :
+   ```sh
+   cd your-repo-name
+   ```
+3. Installer les dépendances :
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+   Ou (méthode préférée) :
+   ```sh
+   yarn install
    ```
 
-In the output, you'll find options to open the app in a
+### Lancer l'application
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Démarrer le serveur de développement Expo :
+   ```sh
+   expo start
+   ```
+   Ou
+   ```sh
+   yarn start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Suivre les instructions dans le terminal pour exécuter l'application sur un émulateur ou un appareil physique
 
-## Get a fresh project
+3. Lancer l'application sur un appareil spécifique :
 
-When you're ready, run:
+   - Pour Android :
 
-```bash
-npm run reset-project
+    ```sh
+   yarn android
+   ```
+
+   - Pour iOS
+
+    ```sh
+   yarn ios
+   ```
+
+## Structure du Projet
+### Voici la structure du projet pour une meilleure organisation des fichiers :
+
+```
+.
+├── app
+    └── ...
+├── assets
+│   └── ...
+├── components
+│   └── ...
+├── constants
+│   └── ...
+├── Types
+│   └── ...
+└── package.json
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## License
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.

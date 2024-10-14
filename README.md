@@ -14,11 +14,11 @@ Il s'agit d'une description de l'installation de la structure du project Waza te
 
 1. Cloner le dépôt :
    ```sh
-   git clone https://github.com/votre-nom-dutilisateur/votre-nom-de-repo.git
+   git clone [https://github.com/votre-nom-dutilisateur/votre-nom-de-repo.git](https://github.com/daydy225/app-waza.git)
    ```
 2. Accéder au répertoire du projet :
    ```sh
-   cd your-repo-name
+   cd app-waza
    ```
 3. Installer les dépendances :
    ```sh
